@@ -1,0 +1,33 @@
+
+.Pro_mid1 {
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 100%;
+}
+
+.Pro_midupper {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #455A64;
+}
+
+.Pro_midlower {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #455A64
+}
+
+/* middle section1 has completed */
+

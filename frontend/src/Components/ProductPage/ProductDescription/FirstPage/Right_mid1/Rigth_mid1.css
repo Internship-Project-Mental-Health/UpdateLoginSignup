@@ -1,0 +1,12 @@
+ .Desc_right_mid1 {
+    height: 50px;
+    color: #463D8C;
+    font-size: 27px;
+    font-weight: 700 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media (max-width:500px) {
+    .Desc_right_mid1{
+        height: auto;
+    }
+}

@@ -1,0 +1,194 @@
+.OurTeam_inner_section {
+    padding: 65px 65px;
+}
+
+.OurTeam_inner_More-abt {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 24px;
+    font-size: 15px;
+}
+
+.DocPage_info {
+    width: 67%;
+    padding: 30px;
+}
+
+.DocPage_heading {
+    font-size: 25px;
+    padding: 30px;
+}
+
+.DocPage_info p {
+    color: #777777;
+}
+
+.DocPage_info .elemen {
+    padding:  12px 0px;
+    color: #000;
+}
+
+.DocPage_info li {
+    color: #222;
+}
+
+.list {
+    display: flex;
+}
+
+.nav-menu .title {
+    background-color: #fee7f3;
+    color: #222;
+    padding: 21px 25px;
+    border-bottom: 1px solid #d8d8d8;
+    border-radius: 2px 2px 0 0;
+    margin: 0;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.side {
+    padding: 30px;
+}
+
+.nav-menu {
+    border: 1px solid #d8d8d8;
+    border-radius: 2px;
+}
+
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu ul li a:hover {
+    background-color: #6d213f;
+    color: #fff;
+}
+
+.nav-menu .menu-item a {
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    line-height: normal;
+    color: #6d213f;
+    display: block;
+    padding: 18px 24px;
+    border-bottom: 1px solid #d8d8d8;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For tablets (768px to 1024px) */
+@media (max-width: 1024px) {
+    .DocPage_info {
+        width: 100%;
+    }
+    
+    .side {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    .More-abt {
+        font-size: 14px;
+    }
+
+    .DocPage_heading {
+        font-size: 22px;
+        padding: 20px;
+    }
+
+    .nav-menu .title {
+        font-size: 18px;
+        padding: 18px 20px;
+    }
+
+    .nav-menu .menu-item a {
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+}
+
+/* For mobile devices (up to 768px) */
+@media (max-width: 768px) {
+    section {
+        padding: 100px 20px;
+    }
+
+    .More-abt {
+        font-size: 13px;
+        flex-direction: column;
+    }
+
+    .DocPage_info {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .DocPage_heading {
+        font-size: 20px;
+        padding: 15px;
+    }
+    
+    .side {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .nav-menu .title {
+        font-size: 16px;
+        padding: 15px 20px;
+    }
+
+    .nav-menu .menu-item a {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+}
+/* Ensure images are responsive */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Ensure images in the .DocPage_info section are responsive */
+.DocPage_info img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 1024px) {
+    .DocPage_info img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 100px 20px;
+    }
+
+    .More-abt {
+        flex-direction: column;
+    }
+
+    .DocPage_info {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .side {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    .DocPage_heading {
+        font-size: 20px;
+        padding: 15px;
+    }
+}

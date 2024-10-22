@@ -1,0 +1,102 @@
+a {
+    text-decoration: none;
+}
+.Word_background{
+    background-color:rgba(222, 184, 135, 0.642);
+    color: rgba(0, 0, 0, 0.57);
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-top: 22px;
+    margin-right: 5px;
+    margin-bottom: 18px;
+}
+.Word_background2{
+    /* background-color:rgba(255, 254, 253, 0.642); */
+    color: rgba(0, 0, 0, 0.57);
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-top: 22px;
+    margin-right: 5px;
+    margin-bottom: 18px;
+}
+.Contact_Us_HomePage{
+    
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.support{
+    margin: 0px 200px 60px 200px;
+    background-color: rgba(255, 255, 255, 0.415);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.support_controls{
+    display: flex;
+}
+
+.sup-btn {
+    display: flex;
+    padding: 30px;
+    margin: 10px;
+    width: 100%;
+    font-size: 17px;
+    color: #000000;
+    background-color: #becfeb;
+    border: none;
+}
+
+.sup-btn i {
+    font-size: 30px;
+    padding-right: 15px;
+    padding-top: 8px;
+}
+
+.sup-btn:hover{
+    background-color: #003575;
+    color: #fff;
+}
+
+.sup-text span {
+    display: block;
+    padding-top: 5px;
+}
+
+.support_content {
+    padding: 30px;
+    margin: 10px;
+    line-height: 24px;
+    background-color: #f1f4fb;
+}
+
+.support_content p,
+li {
+    margin-bottom: 16px;
+    font-size: 17px;
+}
+
+.S-main{
+    color: #7a3555;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 17px 0;
+}
+
+.support_buttons{
+    margin-top: 25px;
+}
+
+.S-btn {
+    border-radius: 25px;
+    border: 1px solid #003575;;
+    padding: 10px;
+    margin-top: 15px;
+    color: #003575;;
+}
+
+.S-btn:hover {
+    background-color: #003575;;
+    color: #fff;
+}

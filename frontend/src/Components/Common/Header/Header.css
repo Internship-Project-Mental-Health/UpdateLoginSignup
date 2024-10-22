@@ -1,0 +1,123 @@
+/* Header top bar */
+body{
+    background-image: linear-gradient(90deg, #F8EBEB 0%, #EBEDFB 100%);
+    max-width: 100%;
+    display: block !important;
+
+    
+}
+#root{
+    margin: 0px;
+    max-width: 100%;
+    padding: 0px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.logo a{
+    color: #d69e69;
+}
+.header_top {
+    height: 50px;
+    background-color: #333;
+    /* Dark background for strong contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* More pronounced shadow for depth */
+    border-bottom: 2px solid #444;
+    /* Slight border for additional separation */
+}
+
+/* Main header section */
+.header_down {
+    height: 70px;
+    background: linear-gradient(to right, #ffffff, #f9f9f9);
+    /* Subtle gradient for a modern look */
+    display: flex;
+    justify-content: space-between;
+    /* Distribute space evenly */
+    align-items: center;
+    /* Center items vertically */
+    padding: 0 30px;
+    /* Increased padding for a spacious feel */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* Deeper shadow for a floating effect */
+    border-bottom: 1px solid #ddd;
+    /* Light border for additional separation */
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Logo styling */
+.logo img {
+    height: 60px;
+    /* Slightly larger for better visibility */
+    object-fit: contain;
+    /* Ensure the image scales correctly */
+}
+
+/* Navigation menu */
+.Header_Elements {
+    display: flex;
+    list-style: none;
+    /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+}
+
+.links {
+    padding: 0 20px;
+    /* Adjusted padding for better spacing */
+    font-size: 18px;
+    /* Larger font size for better readability */
+    font-weight: 600;
+    /* Bolder font for emphasis */
+    transition: color 0.3s ease, transform 0.3s ease;
+    /* Smooth transition effects */
+}
+
+.links a {
+    color: #333;
+    /* Darker color for better readability */
+    text-decoration: none;
+    display: inline-block;
+}
+
+.links a:hover {
+    color: #e2ac7f;
+    /* Highlight color on hover */
+    transform: translateY(-2px);
+    /* Slight lift effect on hover */
+    font-weight: 700;
+    /* Make the font bolder on hover */
+}
+
+/* Appointment button styling */
+.Make_an_appointment {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    background-color: #e2ac7f;
+    display: flex;
+    align-items: center;
+    padding: 0px 50px;
+    letter-spacing: 3px;
+    height: 100%;
+}
+
+.Make_an_appointment a {
+    color: #fff;
+    /* Ensures text color inside the button is white */
+    text-decoration: none;
+    /* Removes underline */
+}
+
+.Make_an_appointment:hover {
+    background-color: #d69e69;
+    height: 100%;
+    /* Slightly darker shade on hover */
+    /* transform: translateY(-3px); */
+    /* Slight lift effect on hover */
+}

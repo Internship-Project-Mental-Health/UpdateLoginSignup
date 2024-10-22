@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 20px;
+        background: url('https://images.unsplash.com/photo-1524678714210-9917a6c619c2?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
+        background-size: cover;
+
+
+    } */
+
+.Appointment_container {
+    max-width: 600px;
+    margin: 0 auto;
+    /* background-color: #fff; */
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9);
+
+
+}
+
+.Appointment_container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.Appointment_detail {
+    margin-bottom: 15px;
+}
+
+.Appointment_detail label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.Appointment_detail input,
+.Appointment_detail select,
+.Appointment_detail textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.Appointment_detail textarea {
+    height: 100px;
+}
+
+.Appointment_detail input[type="submit"] {
+    background-color: #ad3385;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.Appointment_detail input[type="submit"]:hover {
+    background-color: #68144c;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .Appointment_container {
+        padding: 20px;
+    }
+
+    .Appointment_detail label {
+        font-size: 14px;
+    }
+
+    .Appointment_detail input,
+    .Appointment_detail select,
+    .Appointment_detail textarea {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .Appointment_detail input[type="submit"] {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 18px;
+    }
+
+    .Appointment_detail input,
+    .Appointment_detail select,
+    .Appointment_detail textarea {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    .Appointment_detail input[type="submit"] {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

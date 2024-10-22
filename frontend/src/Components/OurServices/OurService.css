@@ -1,0 +1,203 @@
+* {
+    
+    box-sizing: border-box;
+}
+
+
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading1 {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 17px;
+    margin-bottom: 14px;
+    color: #e2ab7f;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.heading2 {
+    margin-bottom: 5px;
+    letter-spacing: 0.8px;
+    font-size: 40px;
+    font-family: "Abhaya Libre", serif;
+    font-weight: lighter;
+    color: #222;
+    margin: 0 0 15px;
+}
+
+.heading3 {
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.6;
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    margin: 12px 0 8px;
+
+}
+
+.heading-underline {
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.card {
+    width: 30px;
+    padding: 0 15px;
+    margin: 15px 0;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-width: 400px;
+}
+
+@media (min-width: 768px) {
+    .card {
+        width: 45px;
+        max-width: none;
+    }
+}
+
+/* @media (min-width: 992px) {
+    .card {
+        width: 30%;
+        max-width: none;
+    }
+} */
+
+.desc {
+    padding: 25px 40px 35px;
+    border: 1px solid #d8d8d8;
+    border-top: none;
+}
+
+@media (min-width: 768px) {
+    .desc {
+        padding: 25px 40px 35px;
+    }
+}
+
+.desc .Dating {
+    font-family: "Abhaya Libre", serif;
+    font-size: 23px;
+    font-weight: lighter;
+    height: auto;
+    letter-spacing: 0.46px;
+    line-height: 25.3px;
+}
+
+.desc span {
+    color: rgb(119, 119, 119);
+}
+
+.more {
+    color: #6d4321;
+    border-color: #6d4321;
+    background-color: transparent;
+    padding: 0 32px;
+    line-height: 46px;
+    border: 2px solid #e2ab7f;
+    transition: all 300ms ease 0s;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 28px;
+}
+
+.more:hover {
+    background-color: #e2ab7f;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.13em;
+    color: #fff;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.image_container {
+    background-image: url(https://demo.7iquid.com/medcaline/wp-content/uploads/2020/04/ptt_service.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 350px -165px;
+    /* padding: 50px; */
+}
+
+/*.image_container img{
+    width:100%;
+    height: 100%;
+}
+.appointment{
+    position: absolute;
+    top:0;
+    z-index: 1;
+} */
+.appointment {
+    position: relative;
+    height: auto;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #f5e8d3 27%, rgba(237, 207, 185, 0.7) 83%);
+    opacity: 1;
+}
+.appointmentText {
+    width: 100%;
+    padding: 50px 0;
+    /* margin: 0 40px; */
+}
+
+.appointmentText h2 {
+    font-family: "Abhaya Libre", serif;
+    color: rgb(99, 80, 80);
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    line-height: 44px;
+}
+
+@media (min-width: 768px) {
+    .appointmentText h2 {
+        font-size: 40px;
+    }
+}
+
+.start {
+    margin-top: 35px;
+    background-image: linear-gradient(90deg, #f5e8d3 27%, rgba(237, 207, 185, 0.7) 83%);
+    /* background-color: #fff; */
+    color: #222;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 0 32px;
+    line-height: 50px;
+    border-radius: 1px solid rgba(0, 0, 0, 0.264);
+}
+
+.start:hover {
+    background-color: #e2ab7f;
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: all 300ms linear 0ms;
+    color: #fff;
+}

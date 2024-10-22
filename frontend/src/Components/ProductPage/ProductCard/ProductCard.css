@@ -1,0 +1,96 @@
+* {
+
+    box-sizing: border-box;
+}
+.Pro_product_card {
+    /* border: 1px solid red; */
+    height: 65vh;
+    width: 500px;
+    display: inline-flex;
+    justify-content: center;
+
+}
+
+.Pro_container {
+    /* border: 1px solid yellow; */
+    width: 375px;
+    height: 100%;
+}
+
+.Pro_product_name {
+    width: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #463D8C;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.Pro_desc_ProductCard {
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.Pro_btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Pro_btn button {
+    height: 50px;
+    width: 140px;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #82215D96;
+    color: aliceblue;
+}
+
+.Pro_btn button:hover {
+    background-color: #7A3555;
+    color: white;
+}
+
+@media (max-width: 1500px) {
+    .Pro_product_card {
+        width: 50%;
+    }
+
+    .Pro_container {
+        width: 70%;
+    }
+
+    .Pro_container img {
+        height: 65%;
+    }
+}
+
+@media (max-width: 400px) {
+    .Pro_product_card {
+        width: 100%;
+    }
+
+    .Pro_container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1115px) {
+    .Pro_product_card {
+        width: 100%;
+    }
+
+    .Pro_container {
+        width: 90%;
+    }
+
+    .Pro_container img {
+        height: 55%;
+    }
+}

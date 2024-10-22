@@ -1,0 +1,141 @@
+.Desc_head {
+    font-style: normal;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    line-height: 56px;
+    color: #463D8C;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.Desc_lower {
+    /* border: 1px solid black; */
+    /* height: 50vh; */
+    width: 100%;
+    overflow: hidden;
+}
+
+.Desc_product_card {
+    /* border: 1px solid red; */
+    height: 65vh;
+    width: 500px;
+    display: inline-flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Desc_container1 img:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.Desc_container1 {
+    /* border: 1px solid yellow; */
+    width: 370px;
+    height: 100%;
+}
+
+.Desc_product_name {
+    width: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #463D8C;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.Desc_desc1 {
+    color: black;
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.Desc_btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Desc_btn button {
+    height: 50px;
+    width: 140px;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #82215D96;
+    color: aliceblue;
+}
+
+
+.Desc_btn button:hover {
+    background-color: #7A3555;
+    color: white;
+}
+
+@media (max-width: 1500px) {
+    .Desc_lower1 {
+        width: 90%;
+    }
+
+    .Desc_lower {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1115px) {
+    .Desc_lower1 {
+        width: 800px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .Desc_product_card {
+        width: 50%;
+    }
+
+    .Desc_container1 {
+        width: 90%;
+    }
+
+    .Desc_container1 img {
+        height: 65%;
+    }
+}
+
+@media (max-width: 500px) {
+    .Desc_lower1 {
+        width: 100%;
+    }
+
+    .Desc_product_card {
+        width: 100%;
+    }
+
+    .Desc_container1 {
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 1115px) {
+    .product_card {
+        width: 100%;
+    }
+
+    .container1 {
+        width: 90%;
+    }
+
+    .container1 img {
+        height: 55%;
+    }
+}

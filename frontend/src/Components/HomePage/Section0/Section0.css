@@ -1,0 +1,35 @@
+       
+
+        
+        .container1_1 {
+            background-image: url(https://ananda.ai/wp-content/uploads/2022/10/home-bg-new.png);
+            background-size: cover;
+            background-position: bottom center;
+            text-align: center;
+            margin: auto;
+        }
+
+        .sec1 {
+
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 24px;
+            padding: 60px 156px;
+
+        }
+
+        .heading {
+            font-family: Poppins, sans-serif;
+            margin: 8px 0px 16px;
+            font-size: 20px;
+            font-weight: lighter;
+        }
+
+        .sec1_h1 {
+            color: #000;
+            font-family: "Abhaya Libre", serif;
+            font-size: 36px;
+            font-weight: bold;
+            line-height: 50px;
+            /* letter-spacing: 1px; */
+        }

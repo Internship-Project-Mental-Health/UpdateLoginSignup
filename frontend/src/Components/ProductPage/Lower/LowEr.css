@@ -1,0 +1,23 @@
+
+.lower {
+    /* border: 1px solid black; */
+    width: 100%;
+    overflow: hidden;
+}
+ @media (max-width: 1500px){
+    .lower1{
+        width: 90%;
+    }
+    .lower{
+        display: flex;
+        justify-content: center;
+    }
+ }
+ @media (max-width: 1115px){
+    .lower1{
+        width: 500px;
+    }
+ }
+
+
+

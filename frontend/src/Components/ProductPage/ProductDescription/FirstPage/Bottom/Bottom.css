@@ -1,0 +1,24 @@
+.Desc_bottom {
+    /* border: 1px solid red; */
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Desc_bottom i {
+    color: black;
+    font-size: 20px;
+}
+
+.Desc_Rating {
+    color: #463D8C;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
