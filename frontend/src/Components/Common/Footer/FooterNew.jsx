@@ -33,10 +33,10 @@ function footer() {
                             <p>Be the first to know about new arrivals, look books, sales &amp; promos!
                             </p>
                             <form action="#">
-                                <input type="text" placeholder="Your email" />
+                                {/* <input type="text" placeholder="Your email" />
                                 <div className="NewsLetter_button">
                                     <a href className="icon_mail_alt">Subscribe</a>
-                                </div>
+                                </div> */}
                             </form>
                         </div>
                     </div>

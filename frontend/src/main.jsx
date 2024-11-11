@@ -17,7 +17,7 @@ import AddToCart from './Components/AddToCart/AddToCart.jsx';
 import OurTeam_InnerPage from './pages/OurTeam_InnerPage.jsx';
 import { CartProvider } from "./Components/context/cart_context.jsx"; // Import CartProvider here
 
-
+import Login from './Components/LoginPage/Login.jsx';
 
 const router = createBrowserRouter([
   {
@@ -59,6 +59,10 @@ const router = createBrowserRouter([
   {
     path: "/AddToCart",
     element: <AddToCart />,
+  },
+  {
+    path: "/login",
+    element: <Login />,
   },
 ]);
 createRoot(document.getElementById('root')).render(

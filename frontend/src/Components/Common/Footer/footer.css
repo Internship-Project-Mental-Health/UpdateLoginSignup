@@ -91,7 +91,7 @@ h6 {
     width: 21%;
 }
 
-input {
+/* input {
     width: 100%;
     font-size: 15px;
     color: #3d3d3d;
@@ -99,7 +99,7 @@ input {
     border: none;
     padding: 15px 0;
     border-bottom: 2px solid #ffffff;
-}
+} */
 
 .footerBottom {
     height: 80px;
@@ -110,7 +110,7 @@ input {
     align-items: center;
     padding: 10px 0;
 }
-
+/* 
 .NewsLetter_button {
     display: flex;
     align-items: center;
@@ -125,7 +125,7 @@ input {
 .NewsLetter_button:hover {
     background-color: #b7b7b7;
     color: black;
-}
+} */
 
 .icon_mail_alt {
     color: white;

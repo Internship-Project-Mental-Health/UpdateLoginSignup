@@ -10,7 +10,7 @@ function Header() {
                 <div className="logo">
                     <a href>
                         {/* <img src="" alt height="70px" /> */}
-                        Menatal Wellness
+                        Mental Wellness
                     </a>
                 </div>
                 <div className="details">
@@ -33,6 +33,9 @@ function Header() {
                             </div>
                             <div className="links">
                                 <Link to="/AddToCart">Cart</Link>
+                            </div>
+                            <div className="links">
+                                <Link to="/login">Login</Link>
                             </div>
                             {/* <div className="links">
                                 <a href>Review</a>
