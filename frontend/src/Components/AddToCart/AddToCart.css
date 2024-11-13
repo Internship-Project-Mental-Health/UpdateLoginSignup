@@ -132,6 +132,7 @@
     background-color: #f3f2ee;
     width: 388px;
     height: 275px;
+    margin-bottom: 100px;
 }
 
 .cart_total h3 {
@@ -152,24 +153,67 @@
     color: #e53637;
     float: right;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.cart_right_button {
-    width: 100%;
+}.cart_right {
+    padding-right: 10px;
     display: flex;
-    justify-content: center;
-}
-
-.cart_checkout_btn {
-    padding: 10px 20px;
-    /* margin-left: 20%; */
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .cart_right_button {
+    display: flex;
+    justify-content: center;  /* Center align button horizontally */
+    align-items: center;
+    margin-top: 20px;
+    flex-grow: 1;  /* Allow the section to take available space */
+  }
+  
+  .cart_checkout_btn {
+    padding: 12px 25px;
     font-size: 16px;
     background-color: black;
     color: white;
     border: none;
     cursor: pointer;
-    /* border-radius: 4px; */
-}
+    text-align: center;
+    border-radius: 4px;
+    width: 100%; /* Make the button width 100% */
+    max-width: 350px;  /* Set a max width so it doesn't stretch too much */
+    margin-bottom: 30px; /* Ensure some spacing below the button */
+  }
+  
+  .cart_checkout_btn:hover {
+    background-color: #444; /* Darken button on hover */
+  }
+  
+  @media (max-width: 1000px) {
+    .cart_inner {
+      display: block;
+      height: auto;
+    }
+  
+    .cart_right1 {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .cart_right {
+      width: 80%;
+    }
+  
+    .cart_right_button {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .cart_checkout_btn {
+      width: 100%;
+      max-width: 350px;
+    }
+  }
+  
 
 @media (max-width:1000px) {
     .cart_inner {
@@ -200,6 +244,7 @@
 
     .cart_total {
         width: 100%;
+        margin-bottom: 100px;
     }
 
     .cart_right_button {
@@ -252,3 +297,106 @@
         font-size: 15px;
     }
 }
+
+/* New styles for quantity buttons */
+.quantity-btn {
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0 5px;
+  }
+  
+  .quantity-btn:hover {
+    background-color: #ddd;
+  }
+  
+  /* New styles for delete button */
+  .delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .delete-btn:hover {
+    background-color: darkred;
+  }
+  
+  /* Ensure the buttons and input are aligned */
+  .cart_quantity {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart_quantity input {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    margin: 0 5px;
+  }
+
+  
+  /* Improved styles for the quantity input box */
+.cart_quantity input {
+    width: 60px; /* Increased width for better visibility */
+    height: 40px; /* Increased height for better feel */
+    font-size: 20px; /* Larger font for readability */
+    text-align: center; /* Center text inside the input */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 5px; /* Padding for spacing inside the input */
+    transition: border-color 0.3s ease; /* Smooth transition for border on focus */
+  }
+  
+  .cart_quantity input:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #007bff; /* Highlight border when focused */
+  }
+  
+  .cart_quantity input:disabled {
+    background-color: #eaeaea; /* Light grey background when disabled */
+    cursor: not-allowed; /* Indicate disabled state */
+  }
+
+  
+  /* Empty cart message centered */
+.empty-cart-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 80%;  /* Control the width */
+    max-width: 600px;  /* Max width for large screens */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 125px;
+    margin-bottom: 150px;
+  }
+  
+  .empty-cart-message h2 {
+    font-size: 28px;
+    font-family: 'Lucida Sans', sans-serif;
+    color: #333;
+  }
+  
+  .empty-cart-message p {
+    font-size: 18px;
+    font-family: 'Lucida Sans', sans-serif;
+    color: #777;
+  }
+  

@@ -42,7 +42,7 @@ h2 {
     line-height: 1.6;
 }
 
-form {
+.Contact_form {
     display: flex;
     flex-wrap: wrap;
 }

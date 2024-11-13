@@ -33,7 +33,7 @@ app.use("/api/Products", productroute);
 // const UserRouter = require('./api/User');
 // app.use('/user', UserRouter)
 app.use("/api/auth", router);
-
+// app.use(errorMiddleware);
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`.bgBlue.black)
 })

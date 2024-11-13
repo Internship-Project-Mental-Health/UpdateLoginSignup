@@ -48,7 +48,6 @@
     position: relative;
 }
 
-/* Style for the input field */
 .lgn-frm .inp {
     padding: 16px 0;
     width: 100%;
@@ -57,23 +56,6 @@
     line-height: 1.5;
     font-size: 16px;
 }
-
-/* Hide placeholder when the input is focused */
-.lgn-frm .inp:focus::placeholder {
-    color: transparent;
-}
-
-/* Hide placeholder when there is text in the input */
-.lgn-frm .inp:not(:placeholder-shown)::placeholder {
-    color: transparent;
-}
-
-/* Placeholder default style */
-.lgn-frm .inp::placeholder {
-    color: #888; /* Adjust color as needed */
-    transition: color 0.2s ease;
-}
-
 
 .lgn-frm label {
     position: absolute;

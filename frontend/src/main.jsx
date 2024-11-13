@@ -9,6 +9,7 @@ import AboutOurTeam from './Components/OurTeam/OurTeam_Inner/AboutOurTeam.jsx';
 import ProductDescriptionPage from './pages/ProductDescriptionPage.jsx';
 import ContactUs from './Components/ContactUs/ContactUs.jsx';
 import Appointment from './Components/Appointment/Appointment.jsx';
+import SignUp from './Components/SignUpPage/SignUp.jsx';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -18,6 +19,7 @@ import OurTeam_InnerPage from './pages/OurTeam_InnerPage.jsx';
 import { CartProvider } from "./Components/context/cart_context.jsx"; // Import CartProvider here
 
 import Login from './Components/LoginPage/Login.jsx';
+
 
 const router = createBrowserRouter([
   {
@@ -63,6 +65,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login />,
+  },
+  {
+    path: "/signup",
+    element: <SignUp/>,
   },
 ]);
 createRoot(document.getElementById('root')).render(

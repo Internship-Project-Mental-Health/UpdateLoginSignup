@@ -68,7 +68,7 @@ function ContactUs() {
                 contacting us.
               </p>
               <hr style={{ marginLeft: 0 }} />
-              <form onSubmit={handleSubmit}>
+              <form onSubmit={handleSubmit} className='Contact_form'>
                 <input 
                   type="text" 
                   name='name' 

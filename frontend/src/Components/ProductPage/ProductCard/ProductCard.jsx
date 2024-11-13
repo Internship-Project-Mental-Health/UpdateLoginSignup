@@ -6,9 +6,11 @@ import { useCartContext } from "../../context/cart_context"
 function ProductCard({id, name, productImg, DESCRIPTION, product,new_price }) {
     const { addToCart } = useCartContext();
     const handleAddToCart = () => {
-        console.log("Adding to cart:", { id, name, productImg,product,new_price });
-        addToCart(id, name, productImg,product,{new_price});
+        console.log("Adding to cart:", { id, name, productImg, product, new_price });
+        addToCart(id, name, productImg, product, { new_price });
+        alert(`${name} has been added to the cart`);
     };
+    
     return (
         <div className="Pro_product_card">
             <div className="Pro_container">
